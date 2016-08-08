@@ -1,5 +1,5 @@
 //
-//  ViewController.h
+//  UIView+Extension.h
 //  XHP_CycleScrollView
 //
 //  Created by xiaohaiping on 16/8/8.
@@ -8,8 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController
-
+@interface UIView (Extension)
 
 @end
-
