@@ -8,6 +8,15 @@
 
 #import <UIKit/UIKit.h>
 
+#define ColorCreater(r, g, b, a) [UIColor colorWithRed:(r / 255.0) green:(g / 255.0) blue:(b / 255.0) alpha:a]
+
 @interface UIView (Extension)
+
+
+@property (nonatomic, assign) CGFloat y;
+@property (nonatomic, assign) CGFloat x;
+@property (nonatomic, assign) CGFloat height;
+@property (nonatomic, assign) CGFloat width;
+
 
 @end

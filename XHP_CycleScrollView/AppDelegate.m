@@ -7,6 +7,7 @@
 //
 
 #import "AppDelegate.h"
+#import "ShufflingStyleListViewController.h"
 
 @interface AppDelegate ()
 
@@ -17,6 +18,13 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
+    
+    ShufflingStyleListViewController *shuStyLisVC = [[ShufflingStyleListViewController alloc]init];
+    self.window = [[UIWindow alloc]initWithFrame:[UIScreen mainScreen].bounds];
+    self.window.rootViewController = [[UINavigationController alloc]initWithRootViewController:shuStyLisVC];;
+    [self.window addSubview:shuStyLisVC.view];
+    [self.window makeKeyAndVisible];
+    
     return YES;
 }
 

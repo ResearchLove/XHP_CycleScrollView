@@ -10,4 +10,6 @@
 
 @interface AnimatedDotView : UIView
 
+@property (nonatomic, strong) UIColor *dotColor;
+
 @end

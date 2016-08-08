@@ -7,13 +7,30 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		8095E83C817ECC3666CB48D0 /* libPods-XHP_CycleScrollView.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 783FA4CB1243A3642E9FF947 /* libPods-XHP_CycleScrollView.a */; };
 		AA7D87EA1D5835A800C604EE /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = AA7D87E91D5835A800C604EE /* main.m */; };
 		AA7D87ED1D5835A800C604EE /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = AA7D87EC1D5835A800C604EE /* AppDelegate.m */; };
-		AA7D87F01D5835A800C604EE /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AA7D87EF1D5835A800C604EE /* ViewController.m */; };
 		AA7D87F31D5835A800C604EE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AA7D87F11D5835A800C604EE /* Main.storyboard */; };
 		AA7D87F51D5835A800C604EE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AA7D87F41D5835A800C604EE /* Assets.xcassets */; };
 		AA7D87F81D5835A800C604EE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AA7D87F61D5835A800C604EE /* LaunchScreen.storyboard */; };
 		AA7D88031D5835A800C604EE /* XHP_CycleScrollViewTests.m in Sources */ = {isa = PBXBuildFile; fileRef = AA7D88021D5835A800C604EE /* XHP_CycleScrollViewTests.m */; };
+		AA7D88151D587AC500C604EE /* CommonTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = AA7D88101D587AC500C604EE /* CommonTableViewCell.m */; };
+		AA7D88161D587AC500C604EE /* CommonTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AA7D88131D587AC500C604EE /* CommonTableViewController.m */; };
+		AA7D88191D587B0800C604EE /* ShufflingStyleListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AA7D88181D587B0800C604EE /* ShufflingStyleListViewController.m */; };
+		AA7D88211D587DCE00C604EE /* ShufflingViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AA7D88201D587DCE00C604EE /* ShufflingViewController.m */; };
+		AA7D88241D587E2400C604EE /* ShufflingDetailsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AA7D88231D587E2400C604EE /* ShufflingDetailsViewController.m */; };
+		AA7D88281D587E6000C604EE /* CommonViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AA7D88271D587E6000C604EE /* CommonViewController.m */; };
+		AA7D882B1D587EAF00C604EE /* ShufflingStyleListCell.m in Sources */ = {isa = PBXBuildFile; fileRef = AA7D882A1D587EAF00C604EE /* ShufflingStyleListCell.m */; };
+		AA7D88341D58805700C604EE /* UIView+Frame.m in Sources */ = {isa = PBXBuildFile; fileRef = AA7D88301D58805700C604EE /* UIView+Frame.m */; };
+		AA7D883C1D58957A00C604EE /* AbstractDotView.m in Sources */ = {isa = PBXBuildFile; fileRef = AA7D883B1D58957A00C604EE /* AbstractDotView.m */; };
+		AA7D883F1D58958F00C604EE /* AnimatedDotView.m in Sources */ = {isa = PBXBuildFile; fileRef = AA7D883E1D58958F00C604EE /* AnimatedDotView.m */; };
+		AA7D88421D5895AA00C604EE /* DotView.m in Sources */ = {isa = PBXBuildFile; fileRef = AA7D88411D5895AA00C604EE /* DotView.m */; };
+		AA7D88481D5895CD00C604EE /* PageControl.m in Sources */ = {isa = PBXBuildFile; fileRef = AA7D88471D5895CD00C604EE /* PageControl.m */; };
+		AA7D884B1D58992D00C604EE /* CollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = AA7D884A1D58992D00C604EE /* CollectionViewCell.m */; };
+		AA7D884E1D58998600C604EE /* CycleScrollView.m in Sources */ = {isa = PBXBuildFile; fileRef = AA7D884D1D58998600C604EE /* CycleScrollView.m */; };
+		AA7D88511D58999E00C604EE /* UIView+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = AA7D88501D58999E00C604EE /* UIView+Extension.m */; };
+		AA7D88531D58A98E00C604EE /* Image.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AA7D88521D58A98E00C604EE /* Image.xcassets */; };
+		AAEA353E1D58E2D1001FCDA6 /* cycleScrollView.gif in Resources */ = {isa = PBXBuildFile; fileRef = AAEA353D1D58E2D1001FCDA6 /* cycleScrollView.gif */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -27,12 +44,12 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		783FA4CB1243A3642E9FF947 /* libPods-XHP_CycleScrollView.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-XHP_CycleScrollView.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8CB7F3F67E5813568AE1EC07 /* Pods-XHP_CycleScrollView.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-XHP_CycleScrollView.release.xcconfig"; path = "Pods/Target Support Files/Pods-XHP_CycleScrollView/Pods-XHP_CycleScrollView.release.xcconfig"; sourceTree = "<group>"; };
 		AA7D87E51D5835A800C604EE /* XHP_CycleScrollView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = XHP_CycleScrollView.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		AA7D87E91D5835A800C604EE /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		AA7D87EB1D5835A800C604EE /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		AA7D87EC1D5835A800C604EE /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		AA7D87EE1D5835A800C604EE /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		AA7D87EF1D5835A800C604EE /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		AA7D87F21D5835A800C604EE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		AA7D87F41D5835A800C604EE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		AA7D87F71D5835A800C604EE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -40,6 +57,40 @@
 		AA7D87FE1D5835A800C604EE /* XHP_CycleScrollViewTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = XHP_CycleScrollViewTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		AA7D88021D5835A800C604EE /* XHP_CycleScrollViewTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XHP_CycleScrollViewTests.m; sourceTree = "<group>"; };
 		AA7D88041D5835A800C604EE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AA7D880F1D587AC500C604EE /* CommonTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CommonTableViewCell.h; sourceTree = "<group>"; };
+		AA7D88101D587AC500C604EE /* CommonTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CommonTableViewCell.m; sourceTree = "<group>"; };
+		AA7D88121D587AC500C604EE /* CommonTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CommonTableViewController.h; sourceTree = "<group>"; };
+		AA7D88131D587AC500C604EE /* CommonTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CommonTableViewController.m; sourceTree = "<group>"; };
+		AA7D88171D587B0800C604EE /* ShufflingStyleListViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ShufflingStyleListViewController.h; sourceTree = "<group>"; };
+		AA7D88181D587B0800C604EE /* ShufflingStyleListViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ShufflingStyleListViewController.m; sourceTree = "<group>"; };
+		AA7D881F1D587DCE00C604EE /* ShufflingViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ShufflingViewController.h; sourceTree = "<group>"; };
+		AA7D88201D587DCE00C604EE /* ShufflingViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ShufflingViewController.m; sourceTree = "<group>"; };
+		AA7D88221D587E2400C604EE /* ShufflingDetailsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ShufflingDetailsViewController.h; sourceTree = "<group>"; };
+		AA7D88231D587E2400C604EE /* ShufflingDetailsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ShufflingDetailsViewController.m; sourceTree = "<group>"; };
+		AA7D88261D587E6000C604EE /* CommonViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CommonViewController.h; sourceTree = "<group>"; };
+		AA7D88271D587E6000C604EE /* CommonViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CommonViewController.m; sourceTree = "<group>"; };
+		AA7D88291D587EAF00C604EE /* ShufflingStyleListCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ShufflingStyleListCell.h; sourceTree = "<group>"; };
+		AA7D882A1D587EAF00C604EE /* ShufflingStyleListCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ShufflingStyleListCell.m; sourceTree = "<group>"; };
+		AA7D882F1D58805700C604EE /* UIView+Frame.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Frame.h"; sourceTree = "<group>"; };
+		AA7D88301D58805700C604EE /* UIView+Frame.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Frame.m"; sourceTree = "<group>"; };
+		AA7D88371D58809D00C604EE /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
+		AA7D883A1D58957A00C604EE /* AbstractDotView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AbstractDotView.h; sourceTree = "<group>"; };
+		AA7D883B1D58957A00C604EE /* AbstractDotView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AbstractDotView.m; sourceTree = "<group>"; };
+		AA7D883D1D58958E00C604EE /* AnimatedDotView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AnimatedDotView.h; sourceTree = "<group>"; };
+		AA7D883E1D58958F00C604EE /* AnimatedDotView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AnimatedDotView.m; sourceTree = "<group>"; };
+		AA7D88401D5895AA00C604EE /* DotView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DotView.h; sourceTree = "<group>"; };
+		AA7D88411D5895AA00C604EE /* DotView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DotView.m; sourceTree = "<group>"; };
+		AA7D88461D5895CD00C604EE /* PageControl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PageControl.h; sourceTree = "<group>"; };
+		AA7D88471D5895CD00C604EE /* PageControl.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PageControl.m; sourceTree = "<group>"; };
+		AA7D88491D58992D00C604EE /* CollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CollectionViewCell.h; sourceTree = "<group>"; };
+		AA7D884A1D58992D00C604EE /* CollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CollectionViewCell.m; sourceTree = "<group>"; };
+		AA7D884C1D58998600C604EE /* CycleScrollView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CycleScrollView.h; sourceTree = "<group>"; };
+		AA7D884D1D58998600C604EE /* CycleScrollView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CycleScrollView.m; sourceTree = "<group>"; };
+		AA7D884F1D58999E00C604EE /* UIView+Extension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Extension.h"; sourceTree = "<group>"; };
+		AA7D88501D58999E00C604EE /* UIView+Extension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Extension.m"; sourceTree = "<group>"; };
+		AA7D88521D58A98E00C604EE /* Image.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Image.xcassets; sourceTree = "<group>"; };
+		AAEA353D1D58E2D1001FCDA6 /* cycleScrollView.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = cycleScrollView.gif; sourceTree = "<group>"; };
+		AB7EF35B663D56A34D93B22B /* Pods-XHP_CycleScrollView.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-XHP_CycleScrollView.debug.xcconfig"; path = "Pods/Target Support Files/Pods-XHP_CycleScrollView/Pods-XHP_CycleScrollView.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -47,6 +98,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8095E83C817ECC3666CB48D0 /* libPods-XHP_CycleScrollView.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -60,12 +112,22 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		A91FC5F002ACFB2F238A3876 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				783FA4CB1243A3642E9FF947 /* libPods-XHP_CycleScrollView.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		AA7D87DC1D5835A700C604EE = {
 			isa = PBXGroup;
 			children = (
 				AA7D87E71D5835A800C604EE /* XHP_CycleScrollView */,
 				AA7D88011D5835A800C604EE /* XHP_CycleScrollViewTests */,
 				AA7D87E61D5835A800C604EE /* Products */,
+				E3A9869C534148D0E2F2882A /* Pods */,
+				A91FC5F002ACFB2F238A3876 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -81,10 +143,13 @@
 		AA7D87E71D5835A800C604EE /* XHP_CycleScrollView */ = {
 			isa = PBXGroup;
 			children = (
+				AA7D880D1D587AC500C604EE /* Common */,
+				AA7D88141D587AC500C604EE /* ViewController */,
+				AA7D881B1D587B9400C604EE /* Extensions */,
+				AA7D881D1D587BB500C604EE /* CustomLibrary */,
+				AA7D881A1D587B3200C604EE /* Resources */,
 				AA7D87EB1D5835A800C604EE /* AppDelegate.h */,
 				AA7D87EC1D5835A800C604EE /* AppDelegate.m */,
-				AA7D87EE1D5835A800C604EE /* ViewController.h */,
-				AA7D87EF1D5835A800C604EE /* ViewController.m */,
 				AA7D87F11D5835A800C604EE /* Main.storyboard */,
 				AA7D87F41D5835A800C604EE /* Assets.xcassets */,
 				AA7D87F61D5835A800C604EE /* LaunchScreen.storyboard */,
@@ -98,6 +163,7 @@
 			isa = PBXGroup;
 			children = (
 				AA7D87E91D5835A800C604EE /* main.m */,
+				AA7D88371D58809D00C604EE /* PrefixHeader.pch */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -111,6 +177,146 @@
 			path = XHP_CycleScrollViewTests;
 			sourceTree = "<group>";
 		};
+		AA7D880D1D587AC500C604EE /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				AA7D88251D587E6000C604EE /* ViewController */,
+				AA7D88111D587AC500C604EE /* TableViewController */,
+				AA7D880E1D587AC500C604EE /* TableViewCell */,
+			);
+			path = Common;
+			sourceTree = "<group>";
+		};
+		AA7D880E1D587AC500C604EE /* TableViewCell */ = {
+			isa = PBXGroup;
+			children = (
+				AA7D880F1D587AC500C604EE /* CommonTableViewCell.h */,
+				AA7D88101D587AC500C604EE /* CommonTableViewCell.m */,
+			);
+			path = TableViewCell;
+			sourceTree = "<group>";
+		};
+		AA7D88111D587AC500C604EE /* TableViewController */ = {
+			isa = PBXGroup;
+			children = (
+				AA7D88121D587AC500C604EE /* CommonTableViewController.h */,
+				AA7D88131D587AC500C604EE /* CommonTableViewController.m */,
+			);
+			path = TableViewController;
+			sourceTree = "<group>";
+		};
+		AA7D88141D587AC500C604EE /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				AA7D881E1D587C2200C604EE /* Views */,
+				AA7D88171D587B0800C604EE /* ShufflingStyleListViewController.h */,
+				AA7D88181D587B0800C604EE /* ShufflingStyleListViewController.m */,
+				AA7D881F1D587DCE00C604EE /* ShufflingViewController.h */,
+				AA7D88201D587DCE00C604EE /* ShufflingViewController.m */,
+				AA7D88221D587E2400C604EE /* ShufflingDetailsViewController.h */,
+				AA7D88231D587E2400C604EE /* ShufflingDetailsViewController.m */,
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
+		AA7D881A1D587B3200C604EE /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				AAEA353D1D58E2D1001FCDA6 /* cycleScrollView.gif */,
+				AA7D88521D58A98E00C604EE /* Image.xcassets */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		AA7D881B1D587B9400C604EE /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				AA7D881C1D587B9400C604EE /* Category */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		AA7D881C1D587B9400C604EE /* Category */ = {
+			isa = PBXGroup;
+			children = (
+				AA7D882C1D58805700C604EE /* UIView */,
+			);
+			path = Category;
+			sourceTree = "<group>";
+		};
+		AA7D881D1D587BB500C604EE /* CustomLibrary */ = {
+			isa = PBXGroup;
+			children = (
+				AA7D88381D58953200C604EE /* CycleScrollView */,
+			);
+			path = CustomLibrary;
+			sourceTree = "<group>";
+		};
+		AA7D881E1D587C2200C604EE /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				AA7D88291D587EAF00C604EE /* ShufflingStyleListCell.h */,
+				AA7D882A1D587EAF00C604EE /* ShufflingStyleListCell.m */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		AA7D88251D587E6000C604EE /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				AA7D88261D587E6000C604EE /* CommonViewController.h */,
+				AA7D88271D587E6000C604EE /* CommonViewController.m */,
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
+		AA7D882C1D58805700C604EE /* UIView */ = {
+			isa = PBXGroup;
+			children = (
+				AA7D882F1D58805700C604EE /* UIView+Frame.h */,
+				AA7D88301D58805700C604EE /* UIView+Frame.m */,
+			);
+			path = UIView;
+			sourceTree = "<group>";
+		};
+		AA7D88381D58953200C604EE /* CycleScrollView */ = {
+			isa = PBXGroup;
+			children = (
+				AA7D88491D58992D00C604EE /* CollectionViewCell.h */,
+				AA7D884A1D58992D00C604EE /* CollectionViewCell.m */,
+				AA7D884C1D58998600C604EE /* CycleScrollView.h */,
+				AA7D884D1D58998600C604EE /* CycleScrollView.m */,
+				AA7D884F1D58999E00C604EE /* UIView+Extension.h */,
+				AA7D88501D58999E00C604EE /* UIView+Extension.m */,
+				AA7D88391D58953200C604EE /* PageControl */,
+			);
+			path = CycleScrollView;
+			sourceTree = "<group>";
+		};
+		AA7D88391D58953200C604EE /* PageControl */ = {
+			isa = PBXGroup;
+			children = (
+				AA7D883A1D58957A00C604EE /* AbstractDotView.h */,
+				AA7D883B1D58957A00C604EE /* AbstractDotView.m */,
+				AA7D883D1D58958E00C604EE /* AnimatedDotView.h */,
+				AA7D883E1D58958F00C604EE /* AnimatedDotView.m */,
+				AA7D88401D5895AA00C604EE /* DotView.h */,
+				AA7D88411D5895AA00C604EE /* DotView.m */,
+				AA7D88461D5895CD00C604EE /* PageControl.h */,
+				AA7D88471D5895CD00C604EE /* PageControl.m */,
+			);
+			path = PageControl;
+			sourceTree = "<group>";
+		};
+		E3A9869C534148D0E2F2882A /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				AB7EF35B663D56A34D93B22B /* Pods-XHP_CycleScrollView.debug.xcconfig */,
+				8CB7F3F67E5813568AE1EC07 /* Pods-XHP_CycleScrollView.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -118,9 +324,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = AA7D88071D5835A800C604EE /* Build configuration list for PBXNativeTarget "XHP_CycleScrollView" */;
 			buildPhases = (
+				12458737608F819452E15FB2 /* [CP] Check Pods Manifest.lock */,
 				AA7D87E11D5835A800C604EE /* Sources */,
 				AA7D87E21D5835A800C604EE /* Frameworks */,
 				AA7D87E31D5835A800C604EE /* Resources */,
+				3606EEAD4FB18767464DB0C5 /* [CP] Embed Pods Frameworks */,
+				43367C6916D70C54A6730703 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -192,6 +401,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				AA7D87F81D5835A800C604EE /* LaunchScreen.storyboard in Resources */,
+				AA7D88531D58A98E00C604EE /* Image.xcassets in Resources */,
+				AAEA353E1D58E2D1001FCDA6 /* cycleScrollView.gif in Resources */,
 				AA7D87F51D5835A800C604EE /* Assets.xcassets in Resources */,
 				AA7D87F31D5835A800C604EE /* Main.storyboard in Resources */,
 			);
@@ -206,14 +417,76 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		12458737608F819452E15FB2 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		3606EEAD4FB18767464DB0C5 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-XHP_CycleScrollView/Pods-XHP_CycleScrollView-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		43367C6916D70C54A6730703 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-XHP_CycleScrollView/Pods-XHP_CycleScrollView-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		AA7D87E11D5835A800C604EE /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				AA7D87F01D5835A800C604EE /* ViewController.m in Sources */,
+				AA7D88341D58805700C604EE /* UIView+Frame.m in Sources */,
+				AA7D88421D5895AA00C604EE /* DotView.m in Sources */,
+				AA7D88151D587AC500C604EE /* CommonTableViewCell.m in Sources */,
+				AA7D88191D587B0800C604EE /* ShufflingStyleListViewController.m in Sources */,
+				AA7D88161D587AC500C604EE /* CommonTableViewController.m in Sources */,
+				AA7D88511D58999E00C604EE /* UIView+Extension.m in Sources */,
+				AA7D882B1D587EAF00C604EE /* ShufflingStyleListCell.m in Sources */,
+				AA7D884E1D58998600C604EE /* CycleScrollView.m in Sources */,
+				AA7D884B1D58992D00C604EE /* CollectionViewCell.m in Sources */,
+				AA7D88241D587E2400C604EE /* ShufflingDetailsViewController.m in Sources */,
+				AA7D88211D587DCE00C604EE /* ShufflingViewController.m in Sources */,
 				AA7D87ED1D5835A800C604EE /* AppDelegate.m in Sources */,
 				AA7D87EA1D5835A800C604EE /* main.m in Sources */,
+				AA7D88481D5895CD00C604EE /* PageControl.m in Sources */,
+				AA7D883F1D58958F00C604EE /* AnimatedDotView.m in Sources */,
+				AA7D88281D587E6000C604EE /* CommonViewController.m in Sources */,
+				AA7D883C1D58957A00C604EE /* AbstractDotView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -341,8 +614,10 @@
 		};
 		AA7D88081D5835A800C604EE /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = AB7EF35B663D56A34D93B22B /* Pods-XHP_CycleScrollView.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/XHP_CycleScrollView/PrefixHeader.pch";
 				INFOPLIST_FILE = XHP_CycleScrollView/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.haohehealth.XHP-CycleScrollView";
@@ -352,8 +627,10 @@
 		};
 		AA7D88091D5835A800C604EE /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8CB7F3F67E5813568AE1EC07 /* Pods-XHP_CycleScrollView.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/XHP_CycleScrollView/PrefixHeader.pch";
 				INFOPLIST_FILE = XHP_CycleScrollView/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.haohehealth.XHP-CycleScrollView";
@@ -404,6 +681,7 @@
 				AA7D88091D5835A800C604EE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		AA7D880A1D5835A800C604EE /* Build configuration list for PBXNativeTarget "XHP_CycleScrollViewTests" */ = {
 			isa = XCConfigurationList;
@@ -412,6 +690,7 @@
 				AA7D880C1D5835A800C604EE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

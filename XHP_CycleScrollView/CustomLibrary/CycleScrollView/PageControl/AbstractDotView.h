@@ -10,4 +10,6 @@
 
 @interface AbstractDotView : UIView
 
+- (void)changeActivityState:(BOOL)active;
+
 @end

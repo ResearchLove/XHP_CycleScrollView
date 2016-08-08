@@ -10,4 +10,7 @@
 
 @interface ShufflingStyleListCell : CommonTableViewCell
 
+@property (strong,nonatomic) UILabel *titleLabel;
+@property (strong,nonatomic) NSString *titleName;
+
 @end

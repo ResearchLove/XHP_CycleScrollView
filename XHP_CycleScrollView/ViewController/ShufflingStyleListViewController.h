@@ -8,6 +8,10 @@
 
 #import "CommonTableViewController.h"
 
+
+
 @interface ShufflingStyleListViewController : CommonTableViewController
+
+@property (strong,nonatomic) NSArray *dataAry;
 
 @end
