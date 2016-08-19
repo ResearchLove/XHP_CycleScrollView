@@ -24,10 +24,10 @@
             [self.view addSubview:self.localScrollView];
             break;
         case ShufflingStypeNetworkNotTitle:
-            [self.view addSubview:self.networkTitleScrollView];
+            [self.view addSubview:self.networkNotTitleScrollView];
             break;
         case ShufflingStypeNetworkTitle:
-            [self.view addSubview:self.networkNotTitleScrollView];
+            [self.view addSubview:self.networkTitleScrollView];
             break;
         case ShufflingStypeNetworkCustom:
             [self.view addSubview:self.networkCustomScrollView];
@@ -94,15 +94,14 @@
  *   网络加载-不带标题的图片轮播器
  *
  */
--(CycleScrollView *)networkTitleScrollView
+-(CycleScrollView *)networkNotTitleScrollView
 {
-    if (_networkTitleScrollView == nil) {
-        _networkTitleScrollView = [CycleScrollView cycleScrollViewWithFrame:CGRectMake(0, HEIGHT_STATUSBAR + HEIGHT_NAVBAR, WIDTH_SCREEN, 180) delegate:self placeholderImage:[UIImage imageNamed:@"placeholder"]];
-        _networkTitleScrollView.imageURLStringsGroup = self.networkImageNameAry;
-        _networkTitleScrollView.currentPageDotColor = [UIColor whiteColor]; // 自定义分页控件小圆标颜色
-        _networkTitleScrollView.imageURLStringsGroup = self.networkImageNameAry;
+    if (_networkNotTitleScrollView == nil) {
+        _networkNotTitleScrollView = [CycleScrollView cycleScrollViewWithFrame:CGRectMake(0, HEIGHT_STATUSBAR + HEIGHT_NAVBAR, WIDTH_SCREEN, 180) delegate:self placeholderImage:[UIImage imageNamed:@"placeholder"]];
+        _networkNotTitleScrollView.imageURLStringsGroup = self.networkImageNameAry;
+        _networkNotTitleScrollView.currentPageDotColor = [UIColor whiteColor]; // 自定义分页控件小圆标颜色
     }
-    return _networkTitleScrollView;
+    return _networkNotTitleScrollView;
 
 }
 
@@ -110,16 +109,16 @@
  *   网络加载-带标题的图片轮播器
  *
  */
--(CycleScrollView *)networkNotTitleScrollView
+-(CycleScrollView *)networkTitleScrollView
 {
-    if (_networkNotTitleScrollView == nil) {
-        _networkNotTitleScrollView = [CycleScrollView cycleScrollViewWithFrame:CGRectMake(0, HEIGHT_STATUSBAR + HEIGHT_NAVBAR, WIDTH_SCREEN, 180) delegate:self placeholderImage:[UIImage imageNamed:@"placeholder"]];
-        _networkNotTitleScrollView.imageURLStringsGroup = self.networkImageNameAry;
-        _networkNotTitleScrollView.currentPageDotColor = [UIColor whiteColor]; // 自定义分页控件小圆标颜色
-        _networkNotTitleScrollView.titlesGroup = self.networkTextAry;
-        _networkNotTitleScrollView.imageURLStringsGroup = self.networkImageNameAry;
+    if (_networkTitleScrollView == nil) {
+        _networkTitleScrollView = [CycleScrollView cycleScrollViewWithFrame:CGRectMake(0, HEIGHT_STATUSBAR + HEIGHT_NAVBAR, WIDTH_SCREEN, 180) delegate:self placeholderImage:[UIImage imageNamed:@"placeholder"]];
+        _networkTitleScrollView.imageURLStringsGroup = self.networkImageNameAry;
+        _networkTitleScrollView.currentPageDotColor = [UIColor whiteColor]; // 自定义分页控件小圆标颜色
+        _networkTitleScrollView.titlesGroup = self.networkTextAry;
+        _networkTitleScrollView.imageURLStringsGroup = self.networkImageNameAry;
     }
-    return _networkNotTitleScrollView;
+    return _networkTitleScrollView;
 }
 
 /**
